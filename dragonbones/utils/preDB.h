@@ -7,7 +7,9 @@
 #define DB_SAFE_DELETE(p)            do { if(p) { delete (p); (p) = 0; } } while(0)
 
 //#define USE_QUICK_COCOS2DX// uncomment to enable quick-cocos2d-x support
+#ifndef COCOS2D_2X
 #define COCOS2D_3X
+#endif
 
 #ifdef USE_QUICK_COCOS2DX
     #define CCNodeRGBA CCNode
