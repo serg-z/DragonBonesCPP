@@ -18,7 +18,7 @@ LOCAL_SRC_FILES := \
 # TODO(hejiangzhou): Shall we disable exception?
 LOCAL_CPPFLAGS := -fexceptions -std=c++11
 
-LOCAL_EXPORT_CPPFLAGS := -fexceptions -std=c++11
+LOCAL_EXPORT_CPPFLAGS := -fexceptions -std=c++11 -DCOCOS2D_2X
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
 
